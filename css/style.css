@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  body, html{
+    font-size: 15px;
+  }
+  header#header{
+    background-color: rgba(238, 237, 237, .7);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  header#header nav a{
+    font-weight: 700;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: rgb(43, 43, 43);
+  }
+
+  header#header nav a:last-child{
+    background-color: rgb(26, 151, 153);
+    padding: 12px 35px;
+    border-radius: 40px;
+    color: white;
+  }
+
+  section#banner{
+    background: url(../assets/img/fondo.jpg) no-repeat center center / cover;
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+  section#banner h1 {
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+  }
+
+  section#banner p {
+    font-size: 1.5rem;
+  }
+  
+  section#banner a {
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 50px;
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 20px 0;
+  }
